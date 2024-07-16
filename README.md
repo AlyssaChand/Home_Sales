@@ -28,3 +28,8 @@ For this challenge, the task is to use SparkSQL to determine key metrics about h
 
     ![image](https://github.com/user-attachments/assets/e3042f71-c305-4ae5-96f5-4b7d2812d7aa)
 
+5. Partition and Read Parquet Data
+
+    ![image](https://github.com/user-attachments/assets/3a3609ca-2105-4c30-bbd5-17c4a9969d0d)
+
+    ![image](https://github.com/user-attachments/assets/6ad247c1-c127-42fe-b05c-d68271ce0411)
