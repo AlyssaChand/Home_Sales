@@ -42,7 +42,7 @@ This notebook demonstrates how to perform data analysis on home sales data using
 
     ![image](https://github.com/user-attachments/assets/57b64003-b08a-40bb-87ae-e05970469d8a)
 
-## Analysis
+## Runtime Performance Analysis
 Uncached Data Runtime: The query took approximately 1.31 seconds to execute. When the data is not cached, each query execution involves reading data from disk. This disk I/O process is relatively slow and can significantly impact the query performance.
 
    ![image](https://github.com/user-attachments/assets/07589c56-ab4b-4074-b96a-ecf337e0fd96)
