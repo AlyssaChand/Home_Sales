@@ -51,6 +51,6 @@ Parquet Data Runtime: Reading from Parquet format further reduced the query time
 
    ![image](https://github.com/user-attachments/assets/e54c08e1-e7b7-43b4-b2ac-8114985d1556)
 
-The results demonstrate the significant performance improvements achievable through caching and using optimized storage formats like Parquet in Spark.
+The results demonstrate the significant performance improvements achievable through caching and using optimized storage formats like Parquet in Spark. Both caching and Parquet storage can be crucial in big data scenarios to enhance performance, reduce query latency, and make data processing more efficient.
 
 
