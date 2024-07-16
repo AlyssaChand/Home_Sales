@@ -4,6 +4,10 @@ These are the sources I used to help write my code: google and BCS — watching 
 
 For this challenge, the task is to use SparkSQL to determine key metrics about home sales data. I used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
 
+## Overview
+
+This notebook demonstrates how to perform data analysis on home sales data using PySpark in a Google Colab environment. The steps include installing necessary dependencies, reading data from an S3 bucket, performing SQL queries, caching data for performance improvements, and leveraging Parquet for optimized storage.
+
 ## Steps
 
 1. Install Dependencies and Set Up Environment
