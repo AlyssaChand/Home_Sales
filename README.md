@@ -25,3 +25,6 @@ For this challenge, the task is to use SparkSQL to determine key metrics about h
 4. Cache the Table and Measure Performance
 
     ![Screenshot 2024-07-15 181646](https://github.com/user-attachments/assets/97029245-f6fd-4b67-af13-82fe6c87539c)
+
+    ![image](https://github.com/user-attachments/assets/e3042f71-c305-4ae5-96f5-4b7d2812d7aa)
+
