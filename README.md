@@ -37,3 +37,22 @@ For this challenge, the task is to use SparkSQL to determine key metrics about h
 6. Uncache the Table and Verify
 
     ![image](https://github.com/user-attachments/assets/57b64003-b08a-40bb-87ae-e05970469d8a)
+
+## Analysis
+Uncached Data Runtime
+
+   ![image](https://github.com/user-attachments/assets/36b504ab-2f94-4ca7-bab5-f22aa3645415)
+
+Cached Data Runtime
+
+   ![image](https://github.com/user-attachments/assets/b51148dd-4726-43ee-a97b-ccb4948d1d11)
+
+Parquet Data Runtime
+
+   ![image](https://github.com/user-attachments/assets/e54c08e1-e7b7-43b4-b2ac-8114985d1556)
+
+
+
+
+
+
