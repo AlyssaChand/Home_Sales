@@ -55,6 +55,6 @@ Parquet Data Runtime: Reading from Parquet format took approximately 1.30 second
 
    ![image](https://github.com/user-attachments/assets/ddd293d5-55f5-42c9-8d4e-fce1d6769c05)
 
-Both caching and Parquet storage can be crucial in big data scenarios to enhance performance, reduce query latency, and make data processing more efficient. Understanding when to use these techniques based on the specific context and requirements is key to optimizing performance in big data environments.
+The results demonstrate the significant performance improvements achievable through different optimization techniques. Both caching and Parquet storage can be crucial in big data scenarios to enhance performance, reduce query latency, and make data processing more efficient. Understanding when to use these techniques based on the specific context and requirements is key to optimizing performance in big data environments.
 
  
