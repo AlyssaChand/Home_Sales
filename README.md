@@ -39,20 +39,18 @@ For this challenge, the task is to use SparkSQL to determine key metrics about h
     ![image](https://github.com/user-attachments/assets/57b64003-b08a-40bb-87ae-e05970469d8a)
 
 ## Analysis
-Uncached Data Runtime
+Uncached Data Runtime: The query took approximately 1.24 seconds to execute. When the data is not cached, each query execution involves reading data from disk. This disk I/O process is relatively slow and can significantly impact the query performance.
 
    ![image](https://github.com/user-attachments/assets/36b504ab-2f94-4ca7-bab5-f22aa3645415)
 
-Cached Data Runtime
+Cached Data Runtime: Caching the data reduced the query time to approximately 1.11 seconds, because the data was stored in memory instead of being read from disk each time. This reduces the query execution time since Spark can quickly retrieve the data from memory without repeated disk I/O operations.
 
    ![image](https://github.com/user-attachments/assets/b51148dd-4726-43ee-a97b-ccb4948d1d11)
 
-Parquet Data Runtime
+Parquet Data Runtime: Reading from Parquet format further reduced the query time to approximately 1.01 seconds, showing the efficiency of Parquet's storage format for fast data access.
 
    ![image](https://github.com/user-attachments/assets/e54c08e1-e7b7-43b4-b2ac-8114985d1556)
 
-
-
-
+The results demonstrate the significant performance improvements achievable through caching and using optimized storage formats like Parquet in Spark.
 
 
