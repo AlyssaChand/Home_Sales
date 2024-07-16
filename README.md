@@ -4,3 +4,24 @@ These are the sources I used to help write my code: google and BCS — watching 
 
 For this challenge, the task is to use SparkSQL to determine key metrics about home sales data. I used Spark to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
 
+## Steps
+
+1. Install Dependencies and Set Up Environment
+   
+    ![image](https://github.com/user-attachments/assets/eac04449-cdfb-4fff-a39e-be441b730c6f)
+
+    ![image](https://github.com/user-attachments/assets/18bffb6e-be7c-467f-b8eb-7bff7fa06256)
+
+2. Load Data from S3 Bucket
+
+    ![image](https://github.com/user-attachments/assets/56e84141-51db-418d-aa49-e20ca982b0ad)
+
+    ![image](https://github.com/user-attachments/assets/4373883a-53e3-4c28-8710-60f611ca173f)
+
+3. Perform SQL Queries
+
+    ![image](https://github.com/user-attachments/assets/9c10491a-0636-4528-82c8-67f99f1f712b)
+
+4. Cache the Table and Measure Performance
+
+    ![Screenshot 2024-07-15 181646](https://github.com/user-attachments/assets/97029245-f6fd-4b67-af13-82fe6c87539c)
