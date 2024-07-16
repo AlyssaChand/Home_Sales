@@ -34,7 +34,7 @@ This notebook demonstrates how to perform data analysis on home sales data using
 
 5. Partition and Read Parquet Data
 
-    ![image](https://github.com/user-attachments/assets/3a3609ca-2105-4c30-bbd5-17c4a9969d0d)
+    ![image](https://github.com/user-attachments/assets/a84643b0-b496-47f7-92b7-737b1491dc67)
 
     ![image](https://github.com/user-attachments/assets/6ad247c1-c127-42fe-b05c-d68271ce0411)
 
@@ -43,18 +43,18 @@ This notebook demonstrates how to perform data analysis on home sales data using
     ![image](https://github.com/user-attachments/assets/57b64003-b08a-40bb-87ae-e05970469d8a)
 
 ## Analysis
-Uncached Data Runtime: The query took approximately 1.24 seconds to execute. When the data is not cached, each query execution involves reading data from disk. This disk I/O process is relatively slow and can significantly impact the query performance.
+Uncached Data Runtime: The query took approximately 1.31 seconds to execute. When the data is not cached, each query execution involves reading data from disk. This disk I/O process is relatively slow and can significantly impact the query performance.
 
-   ![image](https://github.com/user-attachments/assets/36b504ab-2f94-4ca7-bab5-f22aa3645415)
+   ![image](https://github.com/user-attachments/assets/07589c56-ab4b-4074-b96a-ecf337e0fd96)
 
-Cached Data Runtime: Caching the data reduced the query time to approximately 1.11 seconds, because the data was stored in memory instead of being read from disk each time. This reduces the query execution time since Spark can quickly retrieve the data from memory without repeated disk I/O operations.
+Cached Data Runtime: Caching the data reduced the query time to approximately 0.67 seconds, because the data was stored in memory instead of being read from disk each time. This reduces the query execution time since Spark can quickly retrieve the data from memory without repeated disk I/O operations.
 
-   ![image](https://github.com/user-attachments/assets/b51148dd-4726-43ee-a97b-ccb4948d1d11)
+   ![image](https://github.com/user-attachments/assets/ad520cf9-adfc-4c38-a91d-1b2ca7e84ff0)
 
-Parquet Data Runtime: Reading from Parquet format further reduced the query time to approximately 1.01 seconds, showing the efficiency of Parquet's storage format for fast data access.
+Parquet Data Runtime: Reading from Parquet format took approximately 1.30 seconds. Although Parquet optimizes read performance with effective data compression and encoding, it took longer than cached data. This indicates that, while Parquet optimizes storage and query performance, accessing data from memory (cached data) is inherently faster than reading from disk, even with Parquet's optimizations.
 
-   ![image](https://github.com/user-attachments/assets/e54c08e1-e7b7-43b4-b2ac-8114985d1556)
+   ![image](https://github.com/user-attachments/assets/ddd293d5-55f5-42c9-8d4e-fce1d6769c05)
 
-The results demonstrate the significant performance improvements achievable through caching and using optimized storage formats like Parquet in Spark. Both caching and Parquet storage can be crucial in big data scenarios to enhance performance, reduce query latency, and make data processing more efficient.
+Both caching and Parquet storage can be crucial in big data scenarios to enhance performance, reduce query latency, and make data processing more efficient. Understanding when to use these techniques based on the specific context and requirements is key to optimizing performance in big data environments.
 
 
