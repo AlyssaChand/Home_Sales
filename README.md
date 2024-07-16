@@ -33,3 +33,7 @@ For this challenge, the task is to use SparkSQL to determine key metrics about h
     ![image](https://github.com/user-attachments/assets/3a3609ca-2105-4c30-bbd5-17c4a9969d0d)
 
     ![image](https://github.com/user-attachments/assets/6ad247c1-c127-42fe-b05c-d68271ce0411)
+
+6. Uncache the Table and Verify
+
+    ![image](https://github.com/user-attachments/assets/57b64003-b08a-40bb-87ae-e05970469d8a)
